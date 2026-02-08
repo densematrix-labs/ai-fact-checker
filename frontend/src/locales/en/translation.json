@@ -1,0 +1,71 @@
+{
+  "site": {
+    "title": "AI Fact Checker",
+    "tagline": "Verify Claims. Trace Misinformation.",
+    "description": "Analyze any claim with AI-powered fact checking"
+  },
+  "hero": {
+    "headline": "Don't believe everything you read.",
+    "subheadline": "Let AI help you separate fact from fiction.",
+    "cta": "Check a Claim"
+  },
+  "input": {
+    "placeholder": "Paste a claim, news headline, or statement you want to verify...",
+    "button": "Investigate",
+    "analyzing": "Investigating"
+  },
+  "result": {
+    "credibility": "Credibility Assessment",
+    "high": "High Credibility",
+    "medium": "Uncertain",
+    "low": "Low Credibility",
+    "summary": "Summary",
+    "keyPoints": "Key Points Analysis",
+    "contradictions": "Potential Contradictions",
+    "sourceAnalysis": "Source Analysis",
+    "likelyOrigin": "Likely Origin",
+    "spreadPattern": "Spread Pattern",
+    "redFlags": "Red Flags",
+    "assessment": {
+      "likely_true": "Likely True",
+      "uncertain": "Uncertain",
+      "likely_false": "Likely False"
+    }
+  },
+  "pricing": {
+    "title": "Get More Checks",
+    "subtitle": "Choose a package that fits your needs",
+    "popular": "Most Popular",
+    "checks": "checks",
+    "buy": "Buy Now",
+    "features": {
+      "instant": "Instant AI analysis",
+      "languages": "7 languages supported",
+      "detailed": "Detailed credibility reports"
+    }
+  },
+  "payment": {
+    "success": "Payment Successful!",
+    "tokensAdded": "Your tokens have been added.",
+    "goHome": "Start Checking Facts"
+  },
+  "trial": {
+    "free": "Free Trial",
+    "remaining": "{{count}} free check remaining",
+    "exhausted": "Free trial used. Purchase more checks.",
+    "getPremium": "Get More Checks"
+  },
+  "header": {
+    "pricing": "Pricing"
+  },
+  "footer": {
+    "disclaimer": "AI analysis is for reference only. Verify important claims through authoritative sources.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
+  "errors": {
+    "generic": "Something went wrong. Please try again.",
+    "paymentRequired": "Please purchase more checks to continue.",
+    "tooShort": "Please enter a longer claim (at least 10 characters)."
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "site": {
+    "title": "AI-Faktenprüfer",
+    "tagline": "Behauptungen überprüfen. Desinformation verfolgen.",
+    "description": "KI-gestützte Faktenprüfung für jede Behauptung"
+  },
+  "hero": {
+    "headline": "Glaube nicht alles, was du liest.",
+    "subheadline": "Lass KI dir helfen, Fakten von Fiktion zu trennen.",
+    "cta": "Behauptung prüfen"
+  },
+  "input": {
+    "placeholder": "Füge eine Behauptung, Schlagzeile oder Aussage ein, die du überprüfen möchtest...",
+    "button": "Untersuchen",
+    "analyzing": "Wird untersucht"
+  },
+  "result": {
+    "credibility": "Glaubwürdigkeitsbewertung",
+    "high": "Hohe Glaubwürdigkeit",
+    "medium": "Unsicher",
+    "low": "Geringe Glaubwürdigkeit",
+    "summary": "Zusammenfassung",
+    "keyPoints": "Kernpunkte-Analyse",
+    "contradictions": "Mögliche Widersprüche",
+    "sourceAnalysis": "Quellenanalyse",
+    "likelyOrigin": "Wahrscheinlicher Ursprung",
+    "spreadPattern": "Verbreitungsmuster",
+    "redFlags": "Warnzeichen",
+    "assessment": {
+      "likely_true": "Wahrscheinlich wahr",
+      "uncertain": "Unsicher",
+      "likely_false": "Wahrscheinlich falsch"
+    }
+  },
+  "pricing": {
+    "title": "Mehr Prüfungen erhalten",
+    "subtitle": "Wähle ein passendes Paket",
+    "popular": "Beliebt",
+    "checks": "Prüfungen",
+    "buy": "Jetzt kaufen",
+    "features": {
+      "instant": "Sofortige KI-Analyse",
+      "languages": "7 Sprachen unterstützt",
+      "detailed": "Detaillierte Glaubwürdigkeitsberichte"
+    }
+  },
+  "payment": {
+    "success": "Zahlung erfolgreich!",
+    "tokensAdded": "Deine Prüfungen wurden hinzugefügt.",
+    "goHome": "Faktenprüfung starten"
+  },
+  "trial": {
+    "free": "Kostenlose Testversion",
+    "remaining": "{{count}} kostenlose Prüfung übrig",
+    "exhausted": "Testversion aufgebraucht. Bitte weitere Prüfungen kaufen.",
+    "getPremium": "Mehr erhalten"
+  },
+  "header": {
+    "pricing": "Preise"
+  },
+  "footer": {
+    "disclaimer": "KI-Analyse dient nur als Referenz. Wichtige Behauptungen über zuverlässige Quellen verifizieren.",
+    "privacy": "Datenschutz",
+    "terms": "Nutzungsbedingungen"
+  },
+  "errors": {
+    "generic": "Etwas ist schiefgelaufen. Bitte erneut versuchen.",
+    "paymentRequired": "Bitte kaufe weitere Prüfungen, um fortzufahren.",
+    "tooShort": "Bitte gib einen längeren Text ein (mindestens 10 Zeichen)."
+  }
+}

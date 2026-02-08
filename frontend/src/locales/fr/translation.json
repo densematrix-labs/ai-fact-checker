@@ -1,0 +1,71 @@
+{
+  "site": {
+    "title": "Vérificateur de Faits IA",
+    "tagline": "Vérifiez les affirmations. Tracez la désinformation.",
+    "description": "Vérification des faits par IA pour analyser toute affirmation"
+  },
+  "hero": {
+    "headline": "Ne croyez pas tout ce que vous lisez.",
+    "subheadline": "Laissez l'IA vous aider à distinguer le vrai du faux.",
+    "cta": "Vérifier une affirmation"
+  },
+  "input": {
+    "placeholder": "Collez une affirmation, un titre ou une déclaration à vérifier...",
+    "button": "Enquêter",
+    "analyzing": "Analyse en cours"
+  },
+  "result": {
+    "credibility": "Évaluation de crédibilité",
+    "high": "Crédibilité élevée",
+    "medium": "Incertain",
+    "low": "Crédibilité faible",
+    "summary": "Résumé",
+    "keyPoints": "Analyse des points clés",
+    "contradictions": "Contradictions potentielles",
+    "sourceAnalysis": "Analyse de la source",
+    "likelyOrigin": "Origine probable",
+    "spreadPattern": "Mode de propagation",
+    "redFlags": "Signaux d'alerte",
+    "assessment": {
+      "likely_true": "Probablement vrai",
+      "uncertain": "Incertain",
+      "likely_false": "Probablement faux"
+    }
+  },
+  "pricing": {
+    "title": "Obtenez plus de vérifications",
+    "subtitle": "Choisissez un forfait adapté à vos besoins",
+    "popular": "Populaire",
+    "checks": "vérifications",
+    "buy": "Acheter",
+    "features": {
+      "instant": "Analyse IA instantanée",
+      "languages": "7 langues supportées",
+      "detailed": "Rapports de crédibilité détaillés"
+    }
+  },
+  "payment": {
+    "success": "Paiement réussi !",
+    "tokensAdded": "Vos vérifications ont été ajoutées.",
+    "goHome": "Commencer à vérifier"
+  },
+  "trial": {
+    "free": "Essai gratuit",
+    "remaining": "{{count}} vérification gratuite restante",
+    "exhausted": "Essai gratuit épuisé. Veuillez acheter plus de vérifications.",
+    "getPremium": "Obtenir plus"
+  },
+  "header": {
+    "pricing": "Tarifs"
+  },
+  "footer": {
+    "disclaimer": "L'analyse IA est fournie à titre indicatif. Vérifiez les affirmations importantes auprès de sources fiables.",
+    "privacy": "Confidentialité",
+    "terms": "Conditions d'utilisation"
+  },
+  "errors": {
+    "generic": "Une erreur s'est produite. Veuillez réessayer.",
+    "paymentRequired": "Veuillez acheter plus de vérifications pour continuer.",
+    "tooShort": "Veuillez entrer un texte plus long (au moins 10 caractères)."
+  }
+}

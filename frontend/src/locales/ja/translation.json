@@ -1,0 +1,71 @@
+{
+  "site": {
+    "title": "AIファクトチェッカー",
+    "tagline": "情報を検証。誤情報を追跡。",
+    "description": "AIを活用したファクトチェックで主張を分析"
+  },
+  "hero": {
+    "headline": "すべてを鵜呑みにしないで。",
+    "subheadline": "AIが真偽の判別をお手伝いします。",
+    "cta": "情報をチェック"
+  },
+  "input": {
+    "placeholder": "検証したい主張、ニュース見出し、または声明を入力してください...",
+    "button": "調査する",
+    "analyzing": "調査中"
+  },
+  "result": {
+    "credibility": "信頼性評価",
+    "high": "信頼性が高い",
+    "medium": "不確実",
+    "low": "信頼性が低い",
+    "summary": "概要",
+    "keyPoints": "主要ポイント分析",
+    "contradictions": "矛盾点の可能性",
+    "sourceAnalysis": "ソース分析",
+    "likelyOrigin": "推定元",
+    "spreadPattern": "拡散パターン",
+    "redFlags": "警告サイン",
+    "assessment": {
+      "likely_true": "おそらく真実",
+      "uncertain": "不確実",
+      "likely_false": "おそらく虚偽"
+    }
+  },
+  "pricing": {
+    "title": "追加チェックを購入",
+    "subtitle": "ニーズに合ったプランを選択",
+    "popular": "人気",
+    "checks": "回チェック",
+    "buy": "購入する",
+    "features": {
+      "instant": "即時AI分析",
+      "languages": "7言語対応",
+      "detailed": "詳細な信頼性レポート"
+    }
+  },
+  "payment": {
+    "success": "お支払い完了！",
+    "tokensAdded": "チェック回数が追加されました。",
+    "goHome": "ファクトチェックを開始"
+  },
+  "trial": {
+    "free": "無料トライアル",
+    "remaining": "無料チェック残り{{count}}回",
+    "exhausted": "無料トライアルを使い切りました。追加購入してください。",
+    "getPremium": "追加を購入"
+  },
+  "header": {
+    "pricing": "料金"
+  },
+  "footer": {
+    "disclaimer": "AI分析は参考用です。重要な主張は信頼できる情報源で確認してください。",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約"
+  },
+  "errors": {
+    "generic": "エラーが発生しました。もう一度お試しください。",
+    "paymentRequired": "続行するには追加購入が必要です。",
+    "tooShort": "もう少し長い内容を入力してください（10文字以上）。"
+  }
+}

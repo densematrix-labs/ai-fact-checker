@@ -1,0 +1,71 @@
+{
+  "site": {
+    "title": "AI 事实核查器",
+    "tagline": "验证信息，追溯谣言",
+    "description": "使用 AI 分析任何声明的真实性"
+  },
+  "hero": {
+    "headline": "别轻信你看到的一切。",
+    "subheadline": "让 AI 帮你分辨真假。",
+    "cta": "核查一条信息"
+  },
+  "input": {
+    "placeholder": "粘贴你想验证的声明、新闻标题或陈述...",
+    "button": "开始核查",
+    "analyzing": "核查中"
+  },
+  "result": {
+    "credibility": "可信度评估",
+    "high": "可信度高",
+    "medium": "存疑",
+    "low": "可信度低",
+    "summary": "摘要",
+    "keyPoints": "关键论点分析",
+    "contradictions": "可能的矛盾点",
+    "sourceAnalysis": "来源分析",
+    "likelyOrigin": "可能来源",
+    "spreadPattern": "传播模式",
+    "redFlags": "警示信号",
+    "assessment": {
+      "likely_true": "可能为真",
+      "uncertain": "存疑",
+      "likely_false": "可能为假"
+    }
+  },
+  "pricing": {
+    "title": "获取更多次数",
+    "subtitle": "选择适合你的套餐",
+    "popular": "最受欢迎",
+    "checks": "次核查",
+    "buy": "立即购买",
+    "features": {
+      "instant": "即时 AI 分析",
+      "languages": "支持 7 种语言",
+      "detailed": "详细可信度报告"
+    }
+  },
+  "payment": {
+    "success": "支付成功！",
+    "tokensAdded": "你的次数已添加。",
+    "goHome": "开始核查"
+  },
+  "trial": {
+    "free": "免费试用",
+    "remaining": "剩余 {{count}} 次免费核查",
+    "exhausted": "免费试用已用完，请购买更多次数。",
+    "getPremium": "获取更多次数"
+  },
+  "header": {
+    "pricing": "价格"
+  },
+  "footer": {
+    "disclaimer": "AI 分析仅供参考，重要信息请通过权威来源核实。",
+    "privacy": "隐私政策",
+    "terms": "服务条款"
+  },
+  "errors": {
+    "generic": "出错了，请重试。",
+    "paymentRequired": "请购买更多次数以继续。",
+    "tooShort": "请输入更长的内容（至少 10 个字符）。"
+  }
+}
