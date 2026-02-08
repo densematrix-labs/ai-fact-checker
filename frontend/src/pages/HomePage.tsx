@@ -12,7 +12,7 @@ interface FactCheckResultData {
   summary: string
   key_points: Array<{
     point: string
-    assessment: string
+    assessment: 'likely_true' | 'uncertain' | 'likely_false'
     explanation: string
   }>
   contradictions: string[]
