@@ -1,0 +1,86 @@
+{
+  "tool": "AI Fact Checker",
+  "baseUrl": "https://fact-checker.demo.densematrix.ai",
+  "dimensions": [
+    {
+      "name": "topic",
+      "name_zh": "主题领域",
+      "values": [
+        "politics", "science", "health", "technology", "business",
+        "entertainment", "sports", "education", "environment", "history",
+        "law", "finance", "military", "economics", "energy",
+        "space", "psychology", "sociology", "agriculture", "climate",
+        "nutrition", "vaccines", "covid", "ai", "cryptocurrency",
+        "elections", "immigration", "crime", "drugs", "diet",
+        "fitness", "mental-health", "relationships", "parenting", "careers",
+        "real-estate", "investing", "taxes", "insurance", "retirement",
+        "weather", "astronomy", "physics", "chemistry", "biology",
+        "medicine", "surgery", "cancer", "diabetes", "heart-disease",
+        "alzheimers", "autism", "adhd", "depression", "anxiety",
+        "covid-vaccines", "flu-vaccines", "natural-remedies", "supplements", "organic-food",
+        "gmo", "pesticides", "water-quality", "air-pollution", "nuclear-energy",
+        "solar-energy", "electric-vehicles", "self-driving-cars", "5g", "wifi",
+        "smartphones", "social-media", "privacy", "cybersecurity", "hacking",
+        "bitcoin", "ethereum", "nft", "metaverse", "quantum-computing",
+        "gene-editing", "cloning", "stem-cells", "dna-testing", "ancestry",
+        "evolution", "dinosaurs", "ancient-civilizations", "world-wars", "cold-war",
+        "terrorism", "nuclear-weapons", "bioweapons", "ufo", "aliens",
+        "moon-landing", "flat-earth", "chemtrails", "illuminati", "deep-state",
+        "qanon", "antivax", "climate-denial", "holocaust-denial", "911-truth"
+      ]
+    },
+    {
+      "name": "claimType",
+      "name_zh": "声明类型",
+      "values": [
+        "statistics", "historical-event", "scientific-study", "celebrity-quote",
+        "news-report", "viral-rumor", "product-claim", "policy-statement",
+        "prediction", "urban-legend", "conspiracy-theory", "medical-claim",
+        "economic-forecast", "environmental-claim", "tech-announcement",
+        "political-statement", "court-ruling", "leaked-document", "whistleblower",
+        "expert-opinion", "eyewitness-account", "survey-results", "poll-data",
+        "research-finding", "clinical-trial"
+      ]
+    },
+    {
+      "name": "source",
+      "name_zh": "来源平台",
+      "values": [
+        "twitter", "facebook", "instagram", "tiktok", "youtube",
+        "reddit", "whatsapp", "telegram", "wechat", "weibo",
+        "news-websites", "academic-papers", "government-reports", "company-announcements",
+        "blogs", "podcasts", "email-chains", "forums", "wikipedia",
+        "cnn", "fox-news", "bbc", "nyt", "wsj",
+        "reuters", "ap-news", "guardian", "daily-mail", "buzzfeed"
+      ]
+    },
+    {
+      "name": "language",
+      "name_zh": "语言",
+      "values": ["en", "zh", "ja", "de", "fr", "ko", "es"],
+      "labels": {
+        "en": "English",
+        "zh": "中文",
+        "ja": "日本語",
+        "de": "Deutsch",
+        "fr": "Français",
+        "ko": "한국어",
+        "es": "Español"
+      }
+    },
+    {
+      "name": "verificationLevel",
+      "name_zh": "验证级别",
+      "values": ["quick-check", "deep-analysis", "source-tracing", "expert-review"]
+    }
+  ],
+  "combinations": [
+    ["topic", "claimType"],
+    ["topic", "source"],
+    ["topic", "language"],
+    ["claimType", "source"],
+    ["claimType", "language"],
+    ["source", "language"]
+  ],
+  "singleDimensionPages": ["topic", "claimType", "source", "language"]
+}

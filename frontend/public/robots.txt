@@ -1,0 +1,6 @@
+# AI Fact Checker robots.txt
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://fact-checker.demo.densematrix.ai/sitemap.xml
