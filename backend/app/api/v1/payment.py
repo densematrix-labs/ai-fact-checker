@@ -15,9 +15,8 @@ router = APIRouter()
 
 # Product configurations
 PRODUCTS = {
-    "basic": {"tokens": 3, "price_cents": 299},
-    "standard": {"tokens": 10, "price_cents": 799},
-    "pro": {"tokens": 30, "price_cents": 1999},
+    "basic": {"tokens": 3, "price_cents": 799},
+    "standard": {"tokens": 10, "price_cents": 1999},
 }
 
 
@@ -136,25 +135,18 @@ async def get_products():
         "products": [
             {
                 "id": "basic",
-                "name": "Basic Pack",
+                "name": "3 Checks",
                 "tokens": 3,
-                "price": "$2.99",
-                "price_cents": 299
+                "price": "$7.99",
+                "price_cents": 799
             },
             {
                 "id": "standard", 
-                "name": "Standard Pack",
+                "name": "10 Checks",
                 "tokens": 10,
-                "price": "$7.99",
-                "price_cents": 799,
-                "popular": True
-            },
-            {
-                "id": "pro",
-                "name": "Pro Pack",
-                "tokens": 30,
                 "price": "$19.99",
-                "price_cents": 1999
+                "price_cents": 1999,
+                "popular": True
             }
         ]
     }
