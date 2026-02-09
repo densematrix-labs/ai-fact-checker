@@ -7,21 +7,15 @@ const products = [
   {
     id: 'basic',
     tokens: 3,
-    price: '$2.99',
-    priceNum: 2.99,
+    price: '$7.99',
+    priceNum: 7.99,
   },
   {
     id: 'standard',
     tokens: 10,
-    price: '$7.99',
-    priceNum: 7.99,
-    popular: true,
-  },
-  {
-    id: 'pro',
-    tokens: 30,
     price: '$19.99',
     priceNum: 19.99,
+    popular: true,
   },
 ]
 
@@ -55,7 +49,7 @@ export default function PricingPage() {
         </p>
       </div>
 
-      <div className="grid md:grid-cols-3 gap-6">
+      <div className="grid md:grid-cols-2 gap-6 max-w-2xl mx-auto">
         {products.map((product) => (
           <div
             key={product.id}
