@@ -94,6 +94,6 @@ jobs:
         uses: slackapi/slack-github-action@v1.26.0
         with:
           channel-id: 'C0AC1DWEBU3'
-          slack-message: "✅ *${{ github.repository }}* deployed successfully\n• Branch: `${{ github.ref_name }}`\n• Commit: `${{ github.sha | slice: 0, 7 }}`\n• <${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}|View Run>"
+          slack-message: "✅ *${{ github.repository }}* deployed successfully\n• Branch: `${{ github.ref_name }}`\n• Commit: `${{ github.sha }}`\n• <${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}|View Run>"
         env:
           SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
